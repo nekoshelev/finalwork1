@@ -14,3 +14,13 @@ void methodArray (string [] array){
         }
      }
 }
+
+void Print(string [] Array){
+    for (int i=0; i<Array.Length; i++){
+        Console.WriteLine(Array[i]);
+    }
+    Console.WriteLine();
+}
+
+Print(array);
+methodArray(array);
